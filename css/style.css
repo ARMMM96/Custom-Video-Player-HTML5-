@@ -7,7 +7,7 @@ body {
   background: #666;
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   max-height: 100vh;
   margin: 0;
@@ -47,7 +47,7 @@ h1 {
   color: #28a745;
 }
 .controls .fa-stop {
-  color: #dc3454;
+  color: #dc3545;
 }
 .controls .fa-pause {
   color: #fff;
@@ -58,7 +58,7 @@ h1 {
   font-weight: bold;
   margin-left: 10px;
 }
-.btn-fouces {
+.btn:focus {
   outline: 0;
 }
 
